@@ -4,12 +4,15 @@
   "private": true,
   "homepage": "https://tauzen.github.io/tick-tock",
   "dependencies": {
+    "gh-pages": "^1.2.0",
     "prop-types": "^15.6.1",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
     "react-scripts": "1.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
