@@ -1,7 +1,8 @@
 {
-  "name": "mtimeout",
+  "name": "tick-tock",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://tauzen.github.io/tick-tock",
   "dependencies": {
     "prop-types": "^15.6.1",
     "react": "^16.4.0",
