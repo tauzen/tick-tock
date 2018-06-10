@@ -1,7 +1,14 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import logo from "./logo.svg";
+import logo from "./growbots_logo_white.svg";
 import "./App.css";
+
+const TimeoutCard = ({ value, label }) => (
+  <div className="card">
+    <div className="value">{value}</div>
+    <div className="label">{label}</div>
+  </div>
+);
 
 class App extends Component {
   static propTypes = {
@@ -31,13 +38,24 @@ class App extends Component {
     const { days, hours, minutes, seconds } = this.state;
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          {days}, {hours}, {minutes}, {seconds}
+        <p className="info">In</p>
+        <div className="timeout">
+          <TimeoutCard value={days} label="days" />
+          <TimeoutCard value={hours} label="hours" />
+          <TimeoutCard value={minutes} label="minutes" />
+          <TimeoutCard value={seconds} label="seconds" />
+        </div>
+        <p className="info">
+          You'll be <span className="hilite">40 years old</span> Adam!{" "}
+          <span role="img">🎉</span>
         </p>
+        <div className="love">
+          With&nbsp;<span role="img">❤️</span>from&nbsp;&nbsp;<img
+            className="logoWhite"
+            src={logo}
+            alt="Love ya!"
+          />
+        </div>
       </div>
     );
   }

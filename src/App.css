@@ -1,28 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #1f64ee;
+  color: #fff;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.timeout {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
+.card {
   padding: 20px;
+  width: 100px;
+  height: 150px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #353535;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.info {
   color: white;
+  font-size: 16;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1pt;
 }
 
-.App-title {
-  font-size: 1.5em;
+.value {
+  font-size: 48pt;
+  font-weight: bold;
 }
 
-.App-intro {
-  font-size: large;
+.label {
+  font-size: 18pt;
+  font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.logoWhite {
+  height: 20px;
+}
+
+.love {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hilite {
+  color: red;
 }
