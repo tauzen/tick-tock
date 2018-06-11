@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import logo from "./growbots_logo_white.svg";
+import mazan from "./mazan.jpg";
 import "./App.css";
 
 const TimeoutCard = ({ value, label }) => (
@@ -49,8 +50,9 @@ class App extends Component {
           You'll be <span className="hilite">40 years old</span> Adam!{" "}
           <span role="img">🎉</span>
         </p>
+        <img src={mazan} className="mazan" alt="Adam Mazan" />
         <div className="love">
-          With&nbsp;<span role="img">❤️</span>from&nbsp;&nbsp;<img
+          With&nbsp;<span role="img">❤️</span>&nbsp;from&nbsp;&nbsp;<img
             className="logoWhite"
             src={logo}
             alt="Love ya!"
