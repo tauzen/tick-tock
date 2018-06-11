@@ -2,7 +2,7 @@
   "name": "tick-tock",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://tauzen.github.io/tick-tock",
+  "homepage": "https://tauzen.github.io/",
   "dependencies": {
     "gh-pages": "^1.2.0",
     "prop-types": "^15.6.1",
