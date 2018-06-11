@@ -47,16 +47,13 @@ class App extends Component {
           <TimeoutCard value={seconds} label="seconds" />
         </div>
         <p className="info">
-          You'll be <span className="hilite">40 years old</span> Adam!{" "}
+          You will be <span className="hilite">40 years old</span> Adam!{" "}
           <span role="img">🎉</span>
         </p>
         <img src={mazan} className="mazan" alt="Adam Mazan" />
         <div className="love">
-          With&nbsp;<span role="img">❤️</span>&nbsp;from&nbsp;&nbsp;<img
-            className="logoWhite"
-            src={logo}
-            alt="Love ya!"
-          />
+          With&nbsp;<span role="img">❤️</span>&nbsp;from&nbsp;&nbsp;
+          <img className="logoWhite" src={logo} alt="Love ya!" />
         </div>
       </div>
     );
