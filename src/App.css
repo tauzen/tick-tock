@@ -62,6 +62,10 @@ body {
   color: red;
 }
 
+.forty {
+  font-size: 5em;
+}
+
 .mazan {
   width: 400px;
   border-radius: 10px;
